@@ -1,0 +1,34 @@
+/* Цвет лого в хедере #000000  */
+/* Цвет основного текста #757575  */
+/* Вторичный цвет текста #212121  */
+/* Акцент #2196F3  */
+/* Белый цвет #FFFFFF */
+/* Цвет контактов в футере rgba(255, 255, 255, 0.6) */
+/* Основной цвет фона #F5F5F5 */
+/* Вторичный цвет фона #F5F4FA */
+/* Цвет Hero #2F303A */
+:root {
+  --prymary-text-color:#757575;
+  --title-text-color:#212121;
+  --accent-color:#2196F3;
+}
+body {
+  background-color: #F5F5F5;
+  color: var(--prymary-text-color);
+}
+.logo {
+  color: #000000 ;
+}
+.logo-part {
+  color: var(--accent-color); 
+}
+.list {
+  list-style: none;
+}
+.site-nav {
+  color: var(--title-text-color);
+}
+.header-contacts a {
+  color: var(--prymary-text-color);
+
+}
